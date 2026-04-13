@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Alex Johnson",
+    "picture": "https://randomuser.me/api/portraits/men/1.jpg",
+    "email": "alex@example.com",
+    "days_since_contact": 10,
+    "status": "almost due",
+    "tags": ["college", "close friend"],
+    "bio": "Met in university. Love traveling together.",
+    "goal": 14,
+    "next_due_date": "2025-07-20"
+  },
+  {
+    "id": 2,
+    "name": "Sarah Khan",
+    "picture": "https://randomuser.me/api/portraits/women/2.jpg",
+    "email": "sarah@example.com",
+    "days_since_contact": 20,
+    "status": "overdue",
+    "tags": ["work"],
+    "bio": "Former colleague, very supportive.",
+    "goal": 14,
+    "next_due_date": "2025-07-10"
+  }
+]
