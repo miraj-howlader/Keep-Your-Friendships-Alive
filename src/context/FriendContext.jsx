@@ -16,7 +16,7 @@ const FriendProvider = ({ children }) => {
 
   console.log(friends)
 
-  // Add timeline event
+  
   const addEvent = (type, name) => {
     const newEvent = {
       id: Date.now(),
