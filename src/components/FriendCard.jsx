@@ -29,7 +29,7 @@ const FriendCard = ({ friend }) => {
         {friend.days_since_contact} days ago
       </p>
 
-      {/* 🏷️ TAGS */}
+      
       <div className="flex justify-center flex-wrap gap-2 mt-3">
         {friend.tags.map((tag, i) => (
           <span
@@ -41,7 +41,7 @@ const FriendCard = ({ friend }) => {
         ))}
       </div>
 
-      {/* 🔴 STATUS */}
+      
       <div className="mt-4">
         <span
           className={`px-3 py-1 text-xs rounded-full ${statusColor[friend.status]}`}

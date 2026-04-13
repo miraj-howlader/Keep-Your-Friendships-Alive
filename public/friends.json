@@ -118,5 +118,29 @@
     "bio": "Friendly neighbor. We catch up over tea sometimes.",
     "goal": 14,
     "next_due_date": "2025-07-15"
+  },
+  {
+    "id": 11,
+    "name": "Ryan Cooper",
+    "picture": "https://randomuser.me/api/portraits/men/11.jpg",
+    "email": "ryan.cooper@gmail.com",
+    "days_since_contact": 8,
+    "status": "on-track",
+    "tags": ["startup", "tech"],
+    "bio": "Startup friend. We build projects and share ideas often.",
+    "goal": 10,
+    "next_due_date": "2025-07-22"
+  },
+  {
+    "id": 12,
+    "name": "Hafsa Islam",
+    "picture": "https://randomuser.me/api/portraits/women/12.jpg",
+    "email": "hafsa.islam@gmail.com",
+    "days_since_contact": 22,
+    "status": "overdue",
+    "tags": ["college", "roommate"],
+    "bio": "College roommate. We used to study together every night.",
+    "goal": 14,
+    "next_due_date": "2025-07-08"
   }
 ]

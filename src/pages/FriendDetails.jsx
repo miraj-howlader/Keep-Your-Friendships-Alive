@@ -3,6 +3,7 @@ import { useContext } from "react";
 import { FriendContext } from "../context/FriendContext";
 import toast from "react-hot-toast";
 import { Bell, Book, Edit, MessageCircle, Phone, Trash2, Video } from "lucide-react";
+import Loader from "../components/Loader";
 
 const FriendDetails = () => {
   const { id } = useParams();
@@ -10,7 +11,7 @@ const FriendDetails = () => {
 
   const friend = friends.find(f => f.id === Number(id));
 
-  if (!friend) return <p className="p-6">Loading...</p>;
+  if (!friend) return <p className="p-6"><Loader/></p>;
 
   const statusColor = {
     "overdue": "bg-red-100 text-red-600",

@@ -14,7 +14,7 @@ const FriendProvider = ({ children }) => {
      
   }, []);
 
-  console.log(friends)
+  
 
   
   const addEvent = (type, name) => {
