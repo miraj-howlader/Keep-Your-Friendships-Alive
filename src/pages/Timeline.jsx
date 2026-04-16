@@ -74,7 +74,7 @@ const Timeline = () => {
             </div>
 
            
-            <div className="flex-1">
+            <div className="flex-1 ">
               <h2 className="font-semibold">{item.title}</h2>
               <p className="text-sm text-gray-500">
                 📅 {item.date}

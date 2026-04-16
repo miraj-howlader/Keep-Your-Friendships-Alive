@@ -1,16 +1,33 @@
-# React + Vite
+👫 KeenKeeper
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+📌 Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Friend Tracker is a responsive web application that helps you maintain and strengthen your relationships. It allows you to track when you last contacted your friends, set goals, and log interactions like calls, texts, and video chats — so you never lose touch.
 
-## React Compiler
+🚀 Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+⚛️ React.js
+🎨 Tailwind CSS
+🔁 React Router DOM
+🔔 React Hot Toast
+📊 Recharts
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✨ Key Features
+📋 Friend Management Dashboard
+View all your friends with their contact status, tags, and last interaction time.
+⚡ Quick Check-In System
+Instantly log Call, Text, or Video interactions with automatic timeline updates and toast notifications.
+📊 Friendship Analytics
+Visualize your communication habits using charts (Call, Text, Video distribution).
+📱 Responsiveness
+
+The app is fully responsive and works seamlessly on mobile, tablet, and desktop devices.
+
+🔗 Pages Included
+Home
+Timeline
+Stats (Analytics)
+Friend Details
+404 Not Found
